@@ -1,0 +1,13 @@
+# Dataset paths
+train: C:\Users\rites\Downloads\ultralytics-main\datasets\images\train  # Correct path to the training images
+val: C:\Users\rites\Downloads\ultralytics-main\datasets\images\valid   # Correct path to the validation images
+test: C:\Users\rites\Downloads\ultralytics-main\datasets\images\test    # (Optional) path to test images
+
+
+# Number of classes
+nc: 2  # Number of classes (Apple_scab in this case)
+
+# Class names
+names:
+  0: Apple_scab
+  1: Apple  # Class ID 0 corresponds to "Apple_scab"
